@@ -17,16 +17,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-apply plugin: 'com.android.model.library'
+apply plugin: 'com.android.library'
 
-model {
     android {
         compileSdkVersion = 32
         //buildToolsVersion = "32.0.0"
 
         defaultConfig {
-            minSdkVersion.apiLevel = 15
-            targetSdkVersion.apiLevel = 23
+            minSdkVersion 15
+            targetSdkVersion 23
             versionCode = 200
             versionName = "2.0.0"
         }
@@ -45,4 +44,4 @@ model {
             //cppFlags.addAll(['-DANDROID_NDK', '-D_RELEASE'])
         }
     }
-}
+
