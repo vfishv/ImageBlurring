@@ -20,14 +20,13 @@ apply plugin: 'com.android.library'
                 }
             }
         }
-        /*
+
         externalNativeBuild {
             cmake {
-                path "CMakeLists.txt"
-                version "3.10.2"
+                path file('src/main/jni/CMakeLists.txt')
+                version '3.18.1'
             }
-        }*
-        /
+        }
 
         buildTypes {
             release {
