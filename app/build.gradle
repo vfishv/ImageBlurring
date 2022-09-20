@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
     android {
-        compileSdkVersion = 32
+        compileSdkVersion = 33
         //buildToolsVersion = "32.0.0"
 
         defaultConfig {
             applicationId = "net.qiujuer.sample.blur"
             minSdkVersion 15
-            targetSdkVersion 28
+            targetSdkVersion 33
             versionCode = 1
             versionName = "1.0"
         }
