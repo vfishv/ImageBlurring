@@ -17,6 +17,7 @@ apply plugin: 'com.android.application'
                 proguardFiles.add(file('proguard-rules.pro'))
             }
         }
+        namespace 'net.qiujuer.sample.blur'
     }
 
 
